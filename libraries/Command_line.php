@@ -20,7 +20,7 @@ class Command_line {
 	/**
 	 * Command Line Class Constructor
 	 * 
-	 * @param	array	$arguments	array of possible arguments for your cli script [arg => string, alias => string, help => string, type => int]
+	 * @param	array	$arguments	array of possible arguments for your cli script [[]=>[arg => string, alias => string, help => string, type => int]]
 	 * 
 	 */
 	public function __construct($arguments = array()) {
